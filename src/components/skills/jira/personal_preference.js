@@ -905,19 +905,18 @@ class JiraPersonalPreference extends Component {
           </p>
         </Card>
       ) : (
-        <>
+        <div>
           <Affix offsetTop={0}>
             <Anchor
               style={{
                 backgroundColor: "white",
                 maxWidth: 984,
-                marginLeft: 1000,
+                marginLeft: 900,
                 zIndex: 2,
                 marginBottom: -140,
                 // paddingTop: 50,
                 position: "sticky",
                 top: 50,
-                alignSelf: "flex-end",
               }}
             >
               <Link href="#tpgp-wja" title="Workspace Jira Account" />
@@ -936,15 +935,7 @@ class JiraPersonalPreference extends Component {
             style={{ height: "100%" }}
             extra={
               <Dropdown overlay={this.menus()} trigger={["hover"]}>
-                {/* <Button>
-            {currentSkillUser.user_obj && currentSkillUser.user_obj.emailAddress ? currentSkillUser.user_obj.emailAddress : currentSkillUser.user_obj ? currentSkillUser.user_obj.name :''}
-            <DownOutlined />
-          </Button> */}
-                <Button
-                  // size="small"
-                  type="link"
-                  icon={<SettingOutlined />}
-                />
+                <Button type="link" icon={<SettingOutlined />} />
               </Dropdown>
             }
           >
@@ -989,13 +980,8 @@ class JiraPersonalPreference extends Component {
                 {currentSkillUser.user_obj && currentSkillUser.user_obj.emailAddress ? currentSkillUser.user_obj.emailAddress : currentSkillUser.user_obj && currentSkillUser.user_obj.name ? currentSkillUser.user_obj.name : ''}' {connectedAt}. */}
               </div>
             )}
-            {/* <Text type='secondary'>Connected to: https://stagetrooprnov.atlassian.net</Text>
-            <br />
-            <Text type='secondary'>Connected at: Mar 9th 9:34 PM</Text>
-            <br />
-            <Text type='secondary'>Connected as: Satya (googleservice@troopr.io)</Text> */}
           </Card>
-        </>
+        </div>
       )
     ) : (
       <>

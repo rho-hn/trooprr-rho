@@ -1704,13 +1704,6 @@ class JiraConfiguration extends Component {
                             )
                           }
                         >
-                          {/* <Alert
-                        message={isTokenisThere ? `Connected account: ${this.props.userToken.userName}` : `Token is not configured for this account`}
-                        metadata type={isTokenisThere ? "success" : "warning"}
-                        showIcon
-                        description="Jira token is necessary for Troopr Jira integration to function optimally. This configuration can be completed by any Jira admin"
-                      ></Alert> */}
-
                           {isTokenisThere ? (
                             <>
                               <Text type="secondary">Token owner: </Text>
@@ -1726,70 +1719,10 @@ class JiraConfiguration extends Component {
                         </Card>
                       </Col>
                     )}
-                    <Col span={col_span}>
+                    {/* <Row gutter={[8, 8]} style={{ marginBottom: 1024 }}> */}
+                    <Col span={24}>
                       {sub_skill !== "jira_reports" && (
                         <div style={{ height: "100vh" }}>
-                          {/* <Collapse defaultActiveKey={["1"]}> */}
-                          {/* <Panel 
-                      header="Issue Preview (Unfurl)" 
-                      key="3" 
-                      extra={
-                        <div
-                          onClick={e => { e.stopPropagation(); }}
-                        >
-                          <Switch 
-                          checked={this.state.isUnfurl}
-                          disabled={!isUserPrivileged} 
-                          onChange={() => this.unfurlOptionsHandler("isUnfurl")}
-                          />
-                        </div>
-                      }
-                    >
-                    <Text type='secondary'>Show additional information about Jira issues when it is mentioned in Slack</Text><br/><br/>
-                      <div>
-                        <Text style={this.switchButtonStyle}>
-                          Generate issue preview for issue links 
-                          <Switch 
-                            disabled={(!this.state.isUnfurl) || (!isUserPrivileged)}
-                            checked={this.state.isUnfurlLink} 
-                            onChange={() => this.unfurlOptionsHandler("isUnfurlLink")}
-                          />
-                        </Text>
-                   
-                        <Text type='secondary'>
-                        Allow Troopr to generate issue preview for Jira issue links. Example: https://acme.atlassian.net/browse/TP-100
-                        </Text>
-                      </div>
-                      <br/>
-                      <div>
-                        <Text style={this.switchButtonStyle}>
-                          Show issue preview in thread
-                          <Switch 
-                            disabled={(!this.state.isUnfurl) || (!isUserPrivileged)}
-                            checked={this.state.unfurlResponseInThread} 
-                            onChange={() => this.unfurlOptionsHandler("unfurlResponseInThread")}
-                          />
-                        </Text>
-                     
-                        <Text type='secondary'>Expanded issue context will be sent as issue card in original message thread. If disabled issue card will be sent as new message.</Text>
-                      </div>
-                   <br/>
-                      <div>
-                        <Text type='secondary' style={this.switchButtonStyle}>
-                        Enable Thread Sync by default
-                          <Switch 
-                            disabled={(!this.state.isUnfurl) || (!isUserPrivileged)}
-                            checked={this.state.isThreadSyncUnfurl} 
-                            onChange={() => this.unfurlOptionsHandler("isThreadSyncUnfurl")}
-                          />
-                        </Text>
-                        <Text type='secondary'>
-                      Allow issue cards to start a Slack thread to continuously sync with the corresponding Jira issue.
-                      <br/>
-                      Every Jira issue can have a maximum of 5 active issue cards. Newer active cards will automatically disable thread sync in the oldest one.
-                      </Text>
-                      </div> 
-                    </Panel> */}
                           <Col span={col_span} style={{ display: "flex" }}>
                             <Card
                               title="Task It"
@@ -1835,83 +1768,15 @@ class JiraConfiguration extends Component {
                                   </p>
                                 </Text>
                               </div>
-                              {/* <br />
-                      <div>
-                        <Text type='secondary' style={this.switchButtonStyle}>
-                        Enable Thread Sync by default
-                          <Switch 
-                            disabled={(!isUserPrivileged)}
-                            checked={this.state.isThreadSyncTaskIt} 
-                            onChange={() => this.unfurlOptionsHandler("isThreadSyncTaskIt")}
-                          />
-                        </Text>
-                        <Text type='secondary'>
-                      Allow issue cards to start a Slack thread to continuously sync with the corresponding Jira issue. Active issue cards are generated in response to "Task It" action on a Slack message, unfurl action and in some notification messages.
-                      <br/>
-                      Every Jira issue can have a maximum of 5 active issue cards. Newer active cards will automatically disable thread sync in the oldest one.
-                      </Text>
-                      </div> */}
 
                               <br />
                               <Alert
                                 message="This configuration will be used in Projects and Helpdesk"
                                 type="warning"
                                 style={{ textAlign: "center" }}
-                                // showIcon
                               />
                             </Card>
                           </Col>
-
-                          {/* <Panel
-                      header="Enable/Disable Products"
-                      key="6"
-                    >
-                      <div>
-                        <Text type='secondary' style={this.switchButtonStyle}>
-                          Enable Jira Service Desk
-                          <Switch 
-                            disabled={(this.state.isServiceDeskEnabled) && (!this.state.isSoftwareEnabled)}
-                            checked={this.state.isServiceDeskEnabled} 
-                            onChange={() => this.enableDisableProduct("isServiceDeskEnabled")}
-                          />
-                        </Text>
-                        <Text type='secondary'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</Text>
-                      </div>
-                      <br/>
-                      <div>
-                        <Text type='secondary' style={this.switchButtonStyle}>
-                          Enable Jira Software
-                          <Switch 
-                            disabled={(!this.state.isServiceDeskEnabled) && (this.state.isSoftwareEnabled)}
-                            checked={this.state.isSoftwareEnabled} 
-                            onChange={() => this.enableDisableProduct("isSoftwareEnabled")}
-                          />
-                        </Text>
-                        <Text type='secondary'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</Text>
-                      </div>
-                    </Panel> */}
-                          {/*                     <Panel
-                      header="Send updates in thread"
-                      key="7"
-                      extra={
-                        <div
-                          onClick={e => { e.stopPropagation(); }}
-                        >
-                          <Switch 
-                          checked={this.state.showStatusUpdateInThread}
-                          disabled={!isUserPrivileged} 
-                          onChange={() => this.unfurlOptionsHandler("showStatusUpdateInThread")}
-                          />
-                        </div>
-                      }
-                    >
-                      <div>
-                      <Text type='secondary'>
-                        If Enabled the notifications for changes made in jira will be directly delivered in active thread conversation of that ticket.
-                      </Text>
-                      </div>
-                    </Panel> */}
-                          {/* </Collapse> */}
 
                           <CustomEmojiForCreation />
                           <JiraBilling
@@ -1930,7 +1795,7 @@ class JiraConfiguration extends Component {
 
             {this.getModals({ domainName })}
           </Row>
-          {/* </div> */}
+
           <Modal
             title="Common Filter"
             visible={this.state.isJqlFilterModalVisible}
