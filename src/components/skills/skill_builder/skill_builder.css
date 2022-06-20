@@ -1,0 +1,322 @@
+
+.skill_builder_container{
+    background-color: #f5f5f5;
+        overflow: auto;
+  height: calc(100vh - 64px)
+  
+}
+
+
+.cutsom_input,.custom_text_area{
+    
+    webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+ 
+    padding: 4px 11px;
+    color: rgba(0,0,0,0.65);
+    font-size: 14px;
+    line-height: 1.5;
+    /* background-color: #fff; */
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.custom_text_area{
+    background-color: #fff;
+}
+.custom_text_area_dark{
+    background-color: #1f1f1f;
+}
+.cutsom_input{
+    height: 32px;
+}
+
+
+.cutsom_input:placeholder-shown , .custom_text_area:placeholder-shown{
+    text-overflow: ellipsis;
+}
+
+
+.cutsom_input:hover ,.custom_text_area:hover{
+    border-color: #402E96;
+    border-right-width: 1px !important;
+}
+
+.cutsom_input:focus,.custom_text_area:focus {
+    border-color: #402E96;
+    border-right-width: 1px !important;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(64,46,150,0.2);
+    box-shadow: 0 0 0 2px rgba(64,46,150,0.2);
+}
+
+.custom_text_area{
+
+    height: 52px;
+    min-height: 52px;
+    max-height: 136px;
+    overflow-y: hidden;
+}
+.nodes_error_info{
+   
+    background-color: rgba(255, 204, 209, 0.85);
+    padding:11px 32px;
+    margin-top:5px;
+}
+.nodes_error_info .text{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.65);
+    border-radius: 3px;
+}
+.nodes_error_info .error_icon{
+   color: rgba(245, 34, 45, 0.85);
+   font-size:20px;
+   margin-right:11px;
+}
+.node_card_container{
+ 
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 35.4vw;
+    border-radius: 6px !important;
+}
+
+.node_card_error{
+
+
+    border-left: 2px solid #ffccd1  !important;
+
+}
+
+.node_title_container{
+    width: 80%
+}
+.node_card_title{
+ 
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.85);
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+.node_error_box{
+    margin-left: 9px;
+    border-radius: 2px;
+  background-color: #ffccd1;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.65);
+  padding:3px 8px;
+}
+.node_card_sub_title{
+   
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.2;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.55);
+}
+.node_card_sub_title .copy_key{
+    border:0px;
+    outline:0px
+}
+
+.node_card_sub_title .copy_key{
+    border:0px;
+    outline:0px
+}
+.node_card_sub_title .copy_key::selection{
+    color: #423393;
+    background-color: #ffffff;
+}
+
+.node_card_sub_title .copy_key::-moz-selection { /* Code for Firefox */
+    color: #423393;
+    background-color: #ffffff;
+  }
+.node_edit_btn{
+   
+  padding: 6px 11px !important;
+  font-size: 12px  !important;
+  font-weight: normal  !important;;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1 !important;
+  letter-spacing: normal  !important;
+  color: rgba(0, 0, 0, 0.55);
+
+}
+
+
+.nodes_connection_line {
+    margin: 4px;
+    min-height: 5px;
+    height: 5px;
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  
+    }
+
+
+    .add_node_btn{
+
+        font-size: 20px;
+        color:rgba(0, 0, 0, 0.25);
+        cursor:pointer
+    }
+    .add_node_btn:hover{
+        color: #423393;
+
+    }
+  
+    .toggle_icon {
+    font-size: 44px;
+    cursor:pointer
+      }
+      
+      .toggle_icon_off {
+        color: grey;
+      }
+
+      .toggle_icon_on{
+        color: #403294;
+      }
+      .lock_icon {
+        font-size: 18px;
+       
+        margin-right: 6px;
+       
+      }
+      
+      ._icon_off {
+        color: grey;
+      }
+
+
+      .error_message{
+        color: #ff4d4f;
+            font-size: 12px;
+            margin:5px 5px 10px;
+      }
+ /* modal form css */
+
+      .form_group_label{
+        font-size: "14px ";
+        font-weight: 700;
+        margin-bottom:8px
+      }
+
+      .form_group_label_dark{
+        font-size: "14px ";
+        color: #ffffff !important;
+        font-weight: 700;
+        margin-bottom:8px
+      }
+
+      .form_group_label .optional{
+
+        font-weight: 300;
+
+      }
+
+    .skill_share_dropdown{
+        padding: 5px 9px;
+        border-radius: 4px;
+        border: solid 1px #423393;
+    
+        margin-right: 18px;
+        color: #423393;
+        margin-left: 18px;
+        cursor: pointer;
+    }
+    .inactive_off{
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+    .skill_active_dropdown{
+       
+        padding: 5px 9px;
+        border-radius: 4px;
+        border: solid 1px #423393;
+    
+        /* margin-right:7px; */
+        color: #423393;
+        /* margin-left: 18px; */
+        cursor: pointer;
+    }
+
+    .skill_info_box{
+        min-height: 20px;
+        margin-bottom:33px
+    }
+
+    .skill_info_box .skill_info_card{
+
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.83;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.65);
+        padding: 1px 10px;
+        border-radius: 2px;
+        margin-right: 3px
+    }
+
+    .skill_info_box  .error_state{
+     
+        background-color: #ffccd1;
+    }
+
+    .skill_info_box .status_inactive{
+        background-color: #e6e6e4;
+    }
+    .skill_info_box .status_active{
+        background-color: #cce7e1;
+    }
+  
+
+
+    .skill_info_box .personal{
+        background-color: #fbeecc;
+    }
+    .skill_info_box .team{
+        background-color: rgba(64, 50, 148, 0.18);
+      
+    }
+
+    .text_ellispis_header{
+        max-width: 60%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }

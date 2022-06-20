@@ -1,0 +1,251 @@
+/* UNIVERSAL  STYLING */
+
+a, a:hover {
+  text-decoration: none ;
+  /* font-weight: normal !important; */
+}
+
+/** ANT DEFAULT OVERRIDE EXCEPTIONS **/
+
+/* because the default focus shadow is 2px shadow and look bad in narrow spaces */
+.ant-input:focus, .ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused {
+  -webkit-box-shadow: 0 0 0 1px rgba(64,46,150,.2);
+  box-shadow: 0 0 0 1px rgba(64,46,150,.2);
+
+}
+
+
+
+/* because links look better this way */
+.ant-btn-link {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+/* becasue defaults dont gel well with troopr primary color*/
+.ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td, .ant-table-tbody>tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td, .ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td, .ant-table-thead>tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td {
+  background: rgba(64, 46, 150,0.06);
+}
+.ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+  background: rgba(64, 46, 150,0.06);
+}
+.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover {
+  background: rgba(64, 46, 150,0.06);
+}
+
+/* because the margin creates too much space between breadcrumb and title*/
+.ant-breadcrumb + .ant-page-header-heading {
+  margin:0 !important;
+}
+
+
+/*----------------SCROLL BAR-------------------*/
+
+/* for default mode */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: #cccccc; */
+  background: #a6a6a6;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+ width: 3px;
+ height: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #ababab;
+}
+
+/* for dark mode */
+.dark ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px;
+  border-radius: 10px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  /* background: #cccccc; */
+  background: #818181;
+  border-radius: 10px;
+}
+
+.dark ::-webkit-scrollbar{
+ width: 3px;
+ height: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+background: #ababab;
+}
+
+
+
+/* STYLING SHORTCUTS */
+.pointer {
+  cursor: pointer;
+}
+.flex-1 {
+  flex: 1;
+}
+.d-flex{
+  display:-webkit-box!important
+  ;display:-ms-flexbox!important;
+  display:flex!important
+}
+.flex-row{-webkit-box-orient:horizontal!important;
+  -webkit-box-direction:normal!important;
+  -ms-flex-direction:row!important;
+  flex-direction:row!important
+}
+.flex-column{
+  -webkit-box-orient:vertical!important;
+  -webkit-box-direction:normal!important;
+  -ms-flex-direction:column!important;
+  flex-direction:column!important
+}
+.column_flex{
+  display:	flex !important;
+  flex-direction:column
+}
+.row_flex{
+  display:	flex !important;
+  flex-direction:row
+}
+.align_center{
+  align-items: center
+}
+.justify_center{
+  justify-content: center;
+}
+.justify_space_between{
+  justify-content: space-between;
+}
+.justify-content-start{
+  -webkit-box-pack:start!important;
+  -ms-flex-pack:start!important;
+  justify-content:flex-start!important
+}.justify-content-end{
+  -webkit-box-pack:end!important;
+  -ms-flex-pack:end!important;
+  justify-content:flex-end!important
+}.justify-content-center{
+  -webkit-box-pack:center!important;
+  -ms-flex-pack:center!important;
+  justify-content:center!important
+}
+.justify-content-between{
+  -webkit-box-pack:justify!important;
+  -ms-flex-pack:justify!important;
+  justify-content:space-between!important
+}
+.justify-content-around{
+  -ms-flex-pack:distribute!important;
+  justify-content:space-around!important
+}
+.align-items-start{
+  -webkit-box-align:start!important;
+  -ms-flex-align:start!important;
+  align-items:flex-start!important
+}
+.align-items-end{
+  -webkit-box-align:end!important;
+  -ms-flex-align:end!important;
+  align-items:flex-end!important
+}
+.align-items-center{
+  -webkit-box-align:center!important;
+  -ms-flex-align:center!important;
+  align-items:center!important
+}
+.align-items-baseline{
+  -webkit-box-align:baseline!important;
+  -ms-flex-align:baseline!important;
+  align-items:baseline!important            
+}
+.form-control{
+  display:block;
+  width:100%;
+  padding:.375rem .75rem;
+  font-size:1rem;
+  line-height:1.5;
+  color:#495057;
+  background-color:#fff;
+  background-clip:padding-box;
+  border:1px solid #ced4da;
+  border-radius:.25rem;
+  transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.form-control:focus{
+  color:#495057;
+  background-color:#fff;
+  border-color:#80bdff;
+  outline:0;
+  box-shadow:0 0 0 .2rem rgba(0,123,255,.25)
+}
+.form-control::-webkit-input-placeholder{
+  color:#6c757d;opacity:1
+}
+.form-control::-moz-placeholder{
+  color:#6c757d;opacity:1
+}
+.form-control:-ms-input-placeholder{
+  color:#6c757d;opacity:1
+}
+.form-control::-ms-input-placeholder{
+  color:#6c757d;opacity:1
+}
+.form-control::placeholder{
+  color:#6c757d;
+  opacity:1
+}
+.form-control:disabled,.form-control[readonly]{
+  background-color:#e9ecef;
+  opacity:1
+}
+
+
+
+    /* theme styles */
+
+    .ant-legacy-form-item-label > label {
+      color: inherit !important;
+  }
+    .form_label_dark{
+        color:rgba(255, 255, 255, 0.65) !important;
+    }
+
+
+/* Change autocomplete styles in WebKit start*/
+input.autofill_dark:-webkit-autofill,
+input.autofill_dark:-webkit-autofill:hover, 
+input.autofill_dark:-webkit-autofill:focus {
+  -webkit-text-fill-color:rgba(255, 255, 255, 0.65);
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.autofill_dark > .ant-input,
+.autofill_dark > .ant-input:active
+.autofill_dark > .ant-input:focus{
+  -webkit-text-fill-color:rgba(255, 255, 255, 0.65);
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.has-error .ant-input{
+  background-color: transparent !important;
+}
+
+/* Change autocomplete styles in WebKit end*/
+@media screen and (max-width: 500px) {
+  .full_scroll {
+      margin-left: 10px;
+      width: 200%;
+      overflow: auto;
+      white-space: nowrap;
+  }
+}
+
+

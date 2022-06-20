@@ -1,0 +1,65 @@
+.steps-content {
+    margin-top: 16px;
+    border: 1px dashed #e9e9e9;
+    border-radius: 6px;
+    background-color: #fafafa;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .steps-action {
+    margin-top: 24px;
+  }
+  .steps_styles{
+    padding:50px;
+  }
+.radio_styl{
+    display:block;
+    height:30px;
+    line-height: 30px;
+}
+.steps_wrapper_class{
+  min-height: 70vh;
+  width:60%;
+  margin:0 auto;
+  background:#e5e5e5;
+  /* padding-top:110px; */
+  padding:110px 20px 0px 20px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 4px 0 rgba(3,13,2,0.4);
+}
+
+.steps_wrapper_class1{
+  min-height: 70vh;
+  width:60%;
+  margin:0 auto;
+  background:#e5e5e5;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 4px 0 rgba(3,13,2,0.4);
+}
+
+.steps_wrapper_class2{
+  min-height: 70vh;
+  width:60%;
+  margin:0 auto;
+  background:#e5e5e5;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 4px 0 rgba(3,13,2,0.4);
+}
+
+.radioFlex{
+  display: flex;
+  justify-content: center;
+}
+
+.threeSteps{
+  padding: 14px 0;
+    font-size: 28px;
+}
+
+.steps_card{
+  font-size: 22px;
+}
+
+

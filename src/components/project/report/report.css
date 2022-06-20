@@ -1,0 +1,336 @@
+
+.reports_heading{
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+    display: flex;
+   
+}
+.reports_header_container {
+    width: 100%;
+    /* margin-bottom: 10px; */
+    padding:13px 24px;
+    margin-top: 4px;
+}
+.reports_title{
+    height: 28px;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0,0,0,.87);
+}
+.reports_invite_section{
+    border-radius: 4px;
+    /* width: 194px; */
+    /* height: 28px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.report_dates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px 10px;
+    padding-right: 5px;
+}
+.report_dates p{
+    padding: 0;
+}
+.reports_handler{
+       /* margin-left: 10.5%; */
+    /* border-top: 1px solid; */
+    width: 100%;
+    /* width: 79.9% !important; */
+    overflow: auto;
+    padding:0px 24px;
+    /* padding-top: 115px; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.reports_handler_inner_box {
+        /* margin-left: 10.5%; */
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        width: 100%;
+        /* width: 79.9% !important; */
+        /* overflow: auto; */
+        /* padding-top: 115px; */
+        /* margin-top: 10px; */
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+}
+.report_section1{
+    width: 50%;
+    padding-top:30px;
+    padding-right:30px;
+}
+.report_section2{
+    width: 50%;
+    padding-top:30px;
+    padding-left:30px;
+}
+.report_content{
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+.report_overview{
+    padding:30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.overview_number{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+    padding-bottom: 5px;
+}
+.overview_desc{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+}
+.report_bubbles{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+.height_300{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.report_tags{
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.report_tags p{
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+    margin-bottom: 20px;
+}
+.reports_tag_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.report_tag_div{
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    display: flex;
+    padding:5px 10px;
+    margin: 5px;
+}
+.report_tag_div div:first-of-type{
+    padding-right: 15px;
+}
+
+.report_mix{
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.report_mix_title{
+    font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+   color: rgba(0, 0, 0, 0.87);
+}
+
+.report_mix_sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262626;
+}
+.report_mix_sections > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.margin-left-20{
+    margin-left: 20px;
+}
+.report_mix_sections_title{
+    padding-left: 10px;
+}
+
+.mix-holder{
+    width: 100%;
+    height: 354px;
+}
+
+
+.deadline_box_reports{
+    cursor: pointer;
+    width: 95px;
+    padding: 0px 8px;
+    padding-left: 0;
+    border: 0;
+    background: transparent;
+    padding-top: 3px;
+    text-align: center;
+    padding-right: 0;
+}
+.margin_right_20{
+    margin-right: 20px;
+}
+.report_mix_head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    height: 42px;
+    align-items: center;
+}
+
+.is_selected_graph{
+    border-bottom: 2px solid #262626;
+}
+
+.report_bubbles_title{
+    font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+  padding: 15px 0px;
+}
+
+.down_reports{
+    width: 10px;
+    margin-right: 5px;
+}
+
+
+.project-report-empty-task-distribution{
+    height:122px;
+    width:122px;
+    object-fit: contain;
+}
+
+.empty-task-distribution-bold{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 23px;
+}
+
+.empty-task-distribution-light{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.empty-progress-report-image{
+  width: 118px;
+  height: 103px;
+  object-fit: contain;
+}
+
+.empty-progress-report-bold-tag{
+  font-size: 16px;
+  margin-top: 23px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.empty-progress-report-light-tag{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+
+}
+
+.not-selected-graph-item{
+      color: #b3b3b3;
+}
+

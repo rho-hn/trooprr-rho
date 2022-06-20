@@ -1,0 +1,11 @@
+
+.manageEvents{
+  font-size: 15px;
+  justify-content: space-around;
+  display:flex;
+}
+
+.manageButton{
+  justify-content: space-around;
+  display:flex;
+}

@@ -1,0 +1,450 @@
+
+.list-assign-dropdown .dropdown-menu .react-autosuggest__suggestions-container--open{
+        width: 12.9rem;
+    margin: .58rem -1.8rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 4px 4px;
+    display: block;
+  position: absolute;
+  z-index: 2;
+}
+
+ .list-assign-dropdown .dropdown-menu{
+	border-radius: 4px 4px 0px 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    }
+
+
+.list-assign-dropdown .react-autosuggest__suggestions-container {
+  display: none;
+}
+
+
+.list-assign-dropdown .assignee-input{
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: normal;
+	  padding-left: 1.4rem;
+	  color: #9b9b9b !important;
+}
+
+.list-assignee-inputContainer {
+  position: relative;
+}
+
+.list-assignee-img{
+	position: absolute;
+	border-radius: 4px;
+  	background-color: #f7f7f7;
+  	left: -0.8rem;
+    border: 1px solid #e7e7e7;
+    padding: 3px;
+}
+
+.list-suggestion-style{
+  
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b3b3b3;
+  margin-left: 1rem;
+}
+
+.list-suggestion-style-container{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: solid 1px #e7e7e7;
+  border-bottom: 0px;
+  padding-top: 0.7rem;
+}
+
+
+.list-assign-dropdown .dropdown-menu .react-autosuggest__suggestion:first-child .suggestion-content {
+    border-top: 0px solid #e7e7e7;
+}
+
+
+
+.kanban-assign-dropdown .react-autosuggest__suggestions-container--open{
+        width: 14rem;
+    margin: .58rem -1.8rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 4px 4px;
+    display: block;
+  position: absolute;
+  z-index: 2;
+}
+
+ .kanban-assign-dropdown .popover{
+  border-radius: 4px 4px 0px 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    width: 14rem;
+    
+    }
+
+    .kanban-assign-dropdown .popover .show{
+      top: 80px;
+      left: 164px;
+      border-radius: .3rem .3rem 0px 0px;
+    }
+
+
+.kanban-assign-dropdown .react-autosuggest__suggestions-container {
+  display: none;
+}
+
+
+.kanban-assign-dropdown .assignee-input{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-left: 1.4rem;
+    color: #9b9b9b !important;
+}
+
+.kanban-assignee-inputContainer {
+  position: relative;
+  padding-left: 17px;
+  padding-bottom: 13px;
+    padding-top: 12px;
+    /* padding-left: 1.2rem; */
+
+}
+
+.kanban-assignee-img{
+ position: absolute;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    left: -.8rem;
+    border: 1px solid #e7e7e7;
+    padding: 3px;
+    margin-left: 1.7rem;
+}
+
+.list-suggestion-style{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b3b3b3;
+  margin-left: 1rem;
+}
+
+.list-suggestion-style-container{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: solid 1px #e7e7e7;
+  border-bottom: 0px;
+  padding-top: 0.7rem;
+}
+
+.kanban-assignee-style .suggest-down .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+      top: 3.4rem;
+    width: 276px;
+    left: -2px;
+
+     border: 1px solid #e7e7e7 !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.kanban-assignee-style.sidebar-followers-style .suggest-down .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+      top: 3rem;
+    width: 276px;
+    left: -2px;
+
+     border: 1px solid #e7e7e7;
+}
+
+.kanban-assignee-style .suggest-up1 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -4rem;
+    left: -2px;
+        max-height: 213px;
+     border: 1px solid #e7e7e7;
+     border-radius: 4px 4px 0px 0px;
+}
+.kanban-assignee-style .suggest-up2 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -6.5rem;
+    left: -2px;
+    max-height: 213px;
+     border: 1px solid #e7e7e7;
+     border-radius: 4px 4px 0px 0px;
+}
+
+.kanban-assignee-style .suggest-up3 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -8.3rem;
+    left: -2px;
+    max-height: 213px;
+     border: 1px solid #e7e7e7;
+     border-radius: 4px 4px 0px 0px;
+}
+
+.kanban-assignee-style .suggest-up4 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -10.8rem;
+    left: -2px;
+    max-height: 213px;
+     border: 1px solid #e7e7e7;
+     border-radius: 4px 4px 0px 0px;
+}
+
+.kanban-assignee-style .suggest-up5 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -13.3rem;
+    left: -2px;
+    max-height: 213px;
+     border: 1px solid #e7e7e7;
+     border-radius: 4px 4px 0px 0px;
+}
+
+.kanban-assignee-style .suggest-up6 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -14.8rem;
+    left: -2px;
+    max-height: 213px;
+     border: 1px solid #e7e7e7;
+     border-radius: 4px 4px 0px 0px;
+}
+
+.kanban-assignee-style .suggest-up7 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -15rem;
+    left: -2px;
+    max-height: 213px;
+     border: 1px solid #e7e7e7;
+     border-radius: 4px 4px 0px 0px;
+}
+
+/*.kanban-assignee-style .suggest-up8 .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    width: 276px;
+    top: -16.5rem;
+    left: -2px;
+    max-height: 35vh;
+     border: 1px solid #e7e7e7;
+}*/
+
+.kanban-assignee-style.sidebar-tag-add-style .suggest-down .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+      top: 5.1rem;
+    width: 276px;
+    left: -3px;
+}
+
+
+
+
+.kanban-assignee-style .react-autosuggest__suggestion:first-child .suggestion-content {
+    border-top: 1px solid #e7e7e7;
+    border-radius: 4px;
+    border: 0;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.kanban-assignee-style .react-autosuggest__suggestion:not(:first-child) {
+        /* padding: 2px; */
+    padding-left: 18px;
+    /* height: 28px; */
+    border: 0;
+    padding-bottom: 7px;
+    padding-right: 18px;
+  }
+
+.sidebar-tag-add-style .react-autosuggest__suggestion:not(:first-child) {
+  margin-bottom: 8px;
+}
+
+
+.kanban-assignee-style .add-width{
+  width: 238px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: black !important;
+    border-radius: 4px;
+    border: solid 1px #4a4a4a !important;
+}
+
+.kanban-assignee-style .add-width::placeholder{
+  color: #b3b3b3 !important;
+}
+
+.kanban-assign-dropdown .custom-popover-button{
+    padding: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.custom-popover{
+  /* border-radius: .3rem .3rem 0px 0px;
+    width: 300px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+  border: solid 1px #e7e7e7 !important;
+  padding: 0px; */
+}
+
+.custom-popover-top{
+  border-radius: 0px 0px .3rem .3rem !important;
+}
+
+.kanban-assignee-style .kanban-assign-title {
+    margin-top: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.kanban-assignee-style .react-autosuggest__suggestions-list {
+    list-style-type: none;
+    }
+
+    .kanban-assignee-style .react-autosuggest__container--open .react-autosuggest__suggestions-container .suggestion-content{
+      border: 0px !important;
+    }
+
+    .kanban-assignee-style .react-autosuggest__suggestion:last-child .suggestion-content {
+    /* border-bottom: 1px solid #e7e7e7; */
+    border-radius: 4px;
+    border: 0px !important;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+
+.suggestion-sidebar .taskLength-style{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #b3b3b3;
+  white-space: nowrap;
+  margin-bottom: 2px;
+  margin-right: -7px;
+}
+
+.kanban-assignee-style .react-autosuggest__container--open .react-autosuggest__suggestions-container .suggestion-content.suggestion-sidebar{
+  padding: 4px !important;
+}
+
+.tags-suggestions-container {
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #e7e7e7;
+}
+
+.tag-container-add-button {
+    margin: 6px 16px;
+    padding-top: 3px;
+    /* padding-bottom: 6px; */
+    padding-left: 53px;
+    padding-right: 53px;
+    cursor: pointer;
+}
+
+.sidebar-tag-add-style{
+  padding: 1px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #f7f7f7 !important;
+}
+
+.suggestion-sidebar .member-info {
+      width: 75%;
+    margin-left: 9px;
+}
+
+
+.suggestion-sidebar .suggestion-text-h5{
+      white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 84%;
+    font-size: 14px;
+}
+
+
+/*.kanban-assignee-style .suggest-up1 .task-sidebar-followers-list-body{
+  top: -6rem !important;
+}
+
+.kanban-assignee-style .suggest-up2 .task-sidebar-followers-list-body{
+  top: -7.5rem !important;
+}
+
+.kanban-assignee-style .suggest-up3 .task-sidebar-followers-list-body{
+  top: -9rem !important;
+}
+
+.kanban-assignee-style .suggest-up4 .task-sidebar-followers-list-body{
+  top: -10.5rem !important;
+}
+
+.kanban-assignee-style .suggest-up5 .task-sidebar-followers-list-body{
+  top: -12rem !important;
+}
+
+.kanban-assignee-style .suggest-up6 .task-sidebar-followers-list-body{
+  top: -13.5rem !important;
+}
+
+.kanban-assignee-style .suggest-up7 .task-sidebar-followers-list-body{
+  top: -15rem !important;
+}*/
+
+.kanban-assignee-style .react-autosuggest__container--open .react-autosuggest__suggestions-container ul li{
+      padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.kanban-assignee-style .react-autosuggest__container--open .react-autosuggest__suggestions-container ul{
+  width: 100%;
+}
+
+.kanban-assignee-style .suggestion-sidebar{
+  padding-top: 6px;
+}
+
+.tag-suggestion-list-text{
+      white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+
+.assigneeList-selected{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #422c88;
+}
+
+
+.add-task-by-section{
+  padding: 5px;
+}

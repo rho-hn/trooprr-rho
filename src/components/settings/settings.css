@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px) {
+    div.settingscroll {
+        margin-left: 10px;
+        width: 160%;
+        overflow: auto;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+  }

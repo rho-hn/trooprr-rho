@@ -1,0 +1,108 @@
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+  }
+  .navbar-color{
+    color:#423393;
+    font-size: 30px;
+   }
+   .navbar-header-param{
+    color:#423393;
+   font-size: 18px;
+   font-size: 22px;
+   }
+    .next-btn{
+    color:black;
+  }
+
+  .onboard{
+    
+  display:flex;
+  justify-content: center;  
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 37px 102 px !important;
+  margin-top: 37px;
+  }
+ .joyride{
+   text-align:center ;
+ }
+ .picture{
+   width:24px;
+ }
+  .cgrt{
+    height:9px !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 35px 102 px !important;
+  margin-top: 35px;
+  white-space:nowrap;
+  }
+  
+
+  .tour_button{
+    width:182 px;
+    height:40px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding:0px 55px!important;
+  margin-top: 69px;
+  }
+  .pnl{
+    width:58.3% ;
+    height:30.9%;
+  }
+  .flexbox1{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding:11px 25px!important;
+    margin-top:10px;
+  }
+  #floatingbutton{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    margin-bottom:5px;
+    margin-right: 2px;
+    cursor: pointer;
+  }
+  .goToSlack {
+    width:34px;
+     height:34px;
+
+  }
+  .go_to_slack{
+    cursor: pointer;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar_head{
+      width: 140%;
+      overflow: auto;
+      white-space: nowrap;
+    }
+  }

@@ -1,0 +1,89 @@
+.mention {
+    color: rgba(69, 95, 212, 0.979);
+    text-decoration: none;
+  }
+  
+  .mentionSuggestions {
+    background: #323232;
+    position: absolute;
+    width: 180px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    opacity: 1;
+    color:white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 25px 0px;
+    /* border-radius: 2px;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transform-origin: 50% 0%;
+    transform: scaleY(0);
+    margin: -16px;
+    margin-right:80px ; */
+  } 
+  
+  .mentionSuggestionsEntryFocused {
+    font-weight: bold;
+    color: rgba(69, 95, 212, 0.979);
+    margin-left:30px;
+  }
+  .mentionSuggestionsEntryContainer {
+    display: table;
+    width: 100%;
+  }
+  .mentionSuggestionsEntry{
+    margin-left:30px;
+
+  }
+  /* .mentionSuggestionsEntryContainer {
+    display: table;
+    width: 100%;
+  }
+  
+  .mentionSuggestionsEntryContainerLeft,
+  .mentionSuggestionsEntryContainerRight {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .mentionSuggestionsEntryContainerRight {
+    width: 100%;
+    padding-left: 8px;
+  }
+  
+  .mentionSuggestionsEntry {
+    padding: 7px 10px 3px 10px;
+    transition: background-color 0.4s cubic-bezier(.27,1.27,.48,.56);
+  }
+  
+  .mentionSuggestionsEntry:active {
+    background-color: #cce7ff;
+  }
+  
+  
+  .mentionSuggestionsEntryText,
+  .mentionSuggestionsEntryTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .mentionSuggestionsEntryText {
+  }
+  
+  .mentionSuggestionsEntryTitle {
+    font-size: 80%;
+    color: #a7a7a7;
+  }
+  
+  .mentionSuggestionsEntryAvatar {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  } */

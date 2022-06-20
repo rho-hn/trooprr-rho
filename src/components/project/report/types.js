@@ -1,0 +1,2 @@
+export const GETREPORT = 'GETREPORT';
+export const REMOVEREPORT = 'REMOVEREPORT';

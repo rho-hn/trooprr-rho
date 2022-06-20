@@ -1,0 +1,263 @@
+/* Font */
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 300;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-light-0b50f74.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-light-1475c14.woff) format("woff");
+    unicode-range: U+0000-f8fe, U+f900-ffff;
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-regular-d9ce515.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-regular-ea6d1e4.woff) format("woff");
+    unicode-range: U+0000-f8fe, U+f900-ffff;
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-bold-4b1dc11.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-bold-a532381.woff) format("woff");
+    unicode-range: U+0000-f8fe, U+f900-ffff;
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 900;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-black-b64f5e4.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-black-8857ce8.woff) format("woff");
+    unicode-range: U+0000-f8fe, U+f900-ffff;
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 300;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-italic-light-c593311.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-italic-light-354fb58.woff) format("woff");
+    unicode-range: U+0000-2259, U+2261-f8fe, U+f900-ffff;
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 400;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-italic-5bbcd6c.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-italic-d5261ac.woff) format("woff");
+    unicode-range: U+0000-2259, U+2261-f8fe, U+f900-ffff;
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 700;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-italic-bold-99def7d.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-italic-bold-2187a11.woff) format("woff");
+    unicode-range: U+0000-2259, U+2261-f8fe, U+f900-ffff;
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 900;
+    src: local("\263A"), url(https://a.slack-edge.com/bv1-9/lato-italic-black-04aca50.woff2) format("woff2"), url(https://a.slack-edge.com/bv1-9/lato-italic-black-23c1971.woff) format("woff");
+    unicode-range: U+0000-2259, U+2261-f8fe, U+f900-ffff;
+}
+
+* {
+    font-family: Slack-Lato, appleLogo, sans-serif;
+}
+
+
+/* Main */
+
+.issue-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* min-width: 600px; */
+}
+
+
+/* Left Side App Logo */
+
+.issue-card-left {
+    height: 100%;
+}
+
+#app-logo-card {
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+
+/* Right Side Main Content */
+
+.issue-card-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+/* App Name */
+
+.message-header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.message-author {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 0.8;
+}
+
+
+/* Timestamp */
+
+.time-stamp {
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+
+/* Issue Key Header */
+
+.issue-key {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.46668;
+    color: rgb(18, 100, 163);
+    margin-right: 5px;
+}
+
+.attr-1 {
+    font-family: Monaco, Menlo, Consolas, Courier New, monospace !important;
+    font-size: 12px;
+    line-height: 1.50001;
+    font-variant-ligatures: none;
+    white-space: pre-wrap;
+    padding: 2px 3px 1px;
+    border: 1px solid var(--saf-0);
+    border-radius: 3px;
+    background-color: rgba(var(--sk_foreground_min, 29, 28, 29), 0.04);
+    color: #e01e5a;
+    margin-right: 5px;
+}
+
+.summary {
+    font-size: 15px;
+    line-height: 1.46668;
+}
+
+
+/* Description */
+
+.message-description {
+    display: flex;
+    /* width: 90%; */
+    flex-wrap: wrap;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.38463;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+
+/* Attributes List */
+
+.attribute-list,
+.attribute {
+    display: flex;
+}
+
+.attribute-list {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.attribute {
+    margin-right: 15px;
+}
+
+.attribute-name {
+    font-size: 13px;
+    line-height: 1.38463;
+    font-weight: 400;
+    color: rgb(97, 96, 98);
+}
+
+.attribute-value {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.38463;
+    color: rgb(97, 96, 97);
+}
+
+.assignee-emoji {
+    color: transparent;
+    text-shadow: 0 0 0 rgb(91, 91, 245);
+}
+
+
+/* Actions */
+
+.actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.action-button {
+    margin: 8px 8px 0 0;
+    font-size: 15px;
+}
+
+.action-button button {
+    display: block;
+    padding: 0 8px 1px;
+    font-size: 13px;
+    color: rgba(15, 25, 39, 0.9);
+    height: 28px;
+    min-width: 56px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(28, 29, 28);
+    background-color: padding-box;
+    font-weight: 700;
+    border-radius: 4px;
+    outline: none;
+    align-items: center;
+}
+
+.actions-dropdown {
+    margin: 8px 8px 0 0;
+    font-size: 15px;
+    border: 1px solid rgb(25, 29, 28);
+    border-radius: 4px;
+    height: 28px;
+    font-size: 13px;
+    display: block;
+    min-width: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(15, 25, 39, 0.9);
+    -webkit-font-smoothing: antialiased;
+}
+
+.actions-dropdown-placeholder {
+    border: none;
+}
+
+.actions-dropdown-arrow {
+    font-size: 10px;
+    margin-right: 2px;
+}

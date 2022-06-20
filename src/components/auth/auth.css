@@ -1,0 +1,546 @@
+.SignInFormContainer{
+  padding:48px 32px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sFormLogo {
+  margin-bottom: 32px;
+
+}
+
+.sFormTitle {
+  margin-bottom: 32px;
+}
+
+.sFormBox {
+  margin-bottom: 32px;
+}
+
+.signin-form{
+
+	height: 110vh;
+	background-color: #fafafa;
+}
+.singin_conatiner{
+	border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e7e7e7;
+  width:51.9vw;
+  
+  padding: 48px 24px 32px;
+  
+	}
+.troopr_logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /* width: 100px; */
+  margin-bottom: 16px;
+}
+.signin-form .singin_conatiner .bottom_box{
+  padding: 32px;
+  border-radius: 4px;
+  background-color: rgba(64,50,148,0.1);
+}
+.signin-form .singin_conatiner .signin_title{
+  
+ 
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+.signin-form  .signin_title_frost{
+  margin-top:29px;
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+   color: #262626;
+}
+
+
+.signin-form .singin_conatiner .signin_text{
+
+	
+ 
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 32px
+}
+.signin-form .singin_conatiner .signin_text_frost{
+
+  
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+  margin-top: 24px;
+        margin-bottom: 30px;
+}
+.signin-form  .gmail_signin_btn{
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #403294;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #403294;
+  border-radius: 3px;
+  background-color: rgba(64,50,148,.1);
+  cursor: pointer;
+  height: 48px;
+}
+
+.slack-sign-in-button .slack_logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.signin-form .bottom_box .slack_logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 24px;
+}
+.signin-form  .slack_login_btn{
+  border: 1px solid #403294;
+  white-space: nowrap;
+ padding-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #262626;
+  height: 48px;
+  /* padding: 16px; */
+  /* background: #fff; */
+  border-radius: 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.signin-form .bottom_box .slack_login_heading{
+ 
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #403294;
+}
+
+.signin-form .bottom_box .login_text{   
+  
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+.signin-form  .gmail_signin_btn_frost{
+
+  border-radius: 4px;
+background-color: #422c88;
+  border: solid 1px #422c88;
+  
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  width: 82.2%;
+    min-height: 42px;
+}
+.terms_condition_text{
+
+
+
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: rgba(0, 0, 0, 0.4);
+font-size: 12px;
+}
+.signin-form span {
+	font-size: 14px;
+}
+.signin-form form {
+	border-radius: 4px;
+	border: 1px solid #E7E7E7;
+	background-color: #fff;
+	text-align: left;
+	padding: 22px 32px;
+	margin-bottom: 24px;
+}
+.signin-form form .form-group {
+	margin-bottom: 20px;
+}
+.signin-form form .form-group .input-container {
+	position: relative;	
+}
+.signin-form form .form-group .input-container img {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: .75rem;
+	cursor: pointer;
+}
+.signin-form form label,
+.signin-form form button {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	letter-spacing: 1px;
+}
+.signin-form form button {
+	margin-bottom: 10px;
+}
+.signin-form form input,
+.signin-form form button {
+	width: 290px;
+}
+.signin-form .help-block {
+	margin-top: -12px;
+	margin-bottom: 12px;
+}
+.signin-form .signup-option {
+	border-radius: 4px;
+	border: 1px solid #E7E7E7;
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 24px;
+	font-size: 14px;
+}
+.signin-form .header {
+  
+  width: 24.7vw;
+    
+}
+.signin-form .footer-links {
+	margin-bottom: 20px;
+	width: 24.7vw;
+	    padding-right: 2.3vw;
+    padding-left: 2.6vw;
+}
+.signin-form .footer-links span {
+
+	font-size: 12px;
+	color: #4A4A4A;
+}
+.pending_approval_container{
+
+height: 100vh;
+background-color: #f7f7f7;
+
+}
+.pending_approval_box{
+
+  font-size: 14px;
+}
+.pending_approval_box .troopr_email{
+ color: #007ee7;
+  
+}
+.pending_approval_box{
+border-radius: 4px;
+box-shadow: 0 0 3px #ccc;
+padding:60px 25px;
+background-color: #ffffff;
+
+}
+.pending_heading{
+font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 6px;
+  }
+
+
+.user_knowledge{
+min-height: 100vh;
+background-color: #f7f7f7;
+
+
+}
+.user_knowledge_box{
+  width: 500px;
+border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e7e7e7;
+  padding: 32px;
+
+}
+.user_knowledge .user_knowledge_box .userDetails_form{
+  width:100%;
+}
+.user_knowledge .user_knowledge_box .heading{
+margin-top: 16px;
+margin-bottom: 32px;
+
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+}
+
+
+.user_knowledge .user_knowledge_box .userDetails_form .info_question{
+
+
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262626;
+}
+
+.user_knowledge .user_knowledge_box .userDetails_form .add_detail_btn{
+
+ border-radius: 4px;
+  background-color: #007ee7;
+  border: solid 1px #3f7faf;
+  
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+ 
+
+}
+.user_knowledge .user_knowledge_box .userDetails_form .user_Details_Input ,.user_knowledge .userDetails_form .user_Details_textarea{
+ font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 10px;
+    outline: none;
+  }
+
+  .slack_landing_page{
+    background-color: rgba(64, 50, 148, 0.04);
+    height: 100vh;
+  }
+
+  .slack_landing_main_container{
+    padding: 134px 124px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    text-align: center;
+    width: 61%;
+    height: 51.9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+
+  .slack_landing_description{
+    font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 32px 0px;
+  width: 66.9%;
+  }
+
+  .slack_landing_button{
+    font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  padding: 14px 36px;
+  border-radius: 4px;
+  background-color: #402e96;
+  cursor: pointer;
+  }
+
+
+
+
+  .troopr-signin-page-container{
+    margin-top: 55px;
+  }
+  
+  .troopr-signin-page-welcome-msg{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #262626;
+  }
+
+  .sign-in-buttons-container{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto !important;
+    /* margin: 54px 0px 8px 0px; */
+    padding: 36px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    /* background-color: #ffffff; */
+  }
+
+  .sign-in-to-cont{
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262626;
+  font-size: 20px;
+  }
+
+  .slack-sign-in-button{
+        /* opacity: 0.5; */
+        /* width:400px; */
+        border-radius: 8px;
+        border: solid 1px #a6a4a4;
+        background-color: #ffffff;
+        margin: 15px 0px;
+        padding: 16px;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        color: #262626;
+        cursor: pointer;
+  }
+
+  .slack-sign-in-button:hover{
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+    color: #3f4096!important;
+  }
+
+  .troopr-sign-in-help-text{
+    margin-left: 14px;
+    width:292px;
+  }
+
+  .troopr-sign-in-help-text-container{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #7d7d7d;
+  margin: 16px 0px;
+  }
+
+  .troopr-sign-in-footer{
+    /* width:100%; */
+  }
+
+  .help-link{
+    color: #2a64a9;
+    cursor: pointer;
+  }
+
+  .signin-troopr-signin-header{
+    padding:15px 0px;
+    border-bottom: 1px solid rgba(38,38,38,0.5);
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .signin-troopr-logo{
+    width:42px;
+    height:42px;
+    object-fit: contain;
+  }
+
+  .signin-troopr-text{
+    color:#402e96;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

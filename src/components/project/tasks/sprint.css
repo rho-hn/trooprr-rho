@@ -1,0 +1,255 @@
+.sprint_title{
+    margin-left: 3.75rem;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+}
+
+.sprits_deadline_div{
+    border-radius: 4px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.sprits_deadline_div p{
+    margin:0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.sprits_deadline_div p:first-of-type{
+    padding-right: 15px;
+}
+
+.sprits_deadline_div img{
+    width: 10px;
+}
+
+.sprints_dm_title{
+    margin:0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+    padding-bottom: 15px;
+}
+.padding_20{
+    padding: 20px;
+}
+.border_bottom{
+    border-bottom: 1px solid #e7e7e7;
+}
+.margin_p{
+    margin:0;
+}
+
+.deadline_box{
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e7e7e7;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+    padding: 5px 10px;
+}
+
+.sprint_complete_text img{
+    margin-right: 10px;
+}
+.sprint_complete_text{
+    padding-bottom: 10px;
+}
+.sprint_complete_text p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+    cursor: pointer;
+}
+
+.proj_modal {
+    padding-top: 20vh;
+}
+.proj_modal .modal-content{
+    border:0;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.proj_modal .modal-body{
+    padding:30px;
+}
+.sprint_modal_view .modal-open .modal{
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.sprint_modal_title{
+    font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262626;
+  padding-bottom: 10px;
+}
+.sprint_modal_caption{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a90e2;
+  margin-bottom: 30px;
+}
+.sprint_modal_caption_red{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d0021b;
+  margin-bottom: 30px;
+}
+.sprint_modal_caption_grey{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #b3b3b3;
+    margin-bottom: 30px;
+}
+.radio_btn{
+    margin-bottom: 0;
+}
+.first_box{
+    margin-bottom: 20px;
+}
+.start_modal_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e7e7e7;
+    margin-bottom: 15px;
+}
+
+.start_modal_box img{
+    width: 10px;
+}
+
+.start_modal_box_title{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+}
+.radio_box{
+    margin-top: 20px;
+}
+.radio_box > div{
+    margin-bottom: 15px;
+}
+
+.sprint_select{
+    width: 202px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e7e7e7;
+    padding: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sprint_select p{
+    font-size: 14px;
+}
+
+.radio_box .dropdown-menu{
+ /* width: 200px; */
+}
+
+.radio_label{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+}
+
+.sprint_modal_button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sprint_modal_button div{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #60a2f0;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sprint_dropdown{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262626;
+  padding-left: 15px;
+}
+
+.add-task-by-section{
+    padding: 0px;
+    /* margin-bottom: 24px; */
+}

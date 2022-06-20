@@ -1,0 +1,10 @@
+@media screen and (max-width: 500px) {
+    div.homescroll {
+        width: 60%;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .header{
+        width: 200%;
+    }
+  }

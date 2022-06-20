@@ -1,0 +1,180 @@
+.activity_image{
+    margin-top: 60px;
+    width: 650px;
+    height: 426px;
+    margin-bottom: 50px;
+}
+
+
+
+.activity_btn{
+    display: flex;
+    align-items: center;
+    font-size: 14px ;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 147px;
+    height: 27px;
+    border-radius: 2px;
+    background-color: #007ee7;
+    justify-content: center;
+  
+}
+
+/* .proj_activ_block{
+    margin-top: 15px;
+} */
+
+
+.proj_activ_block_item{
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: 10px 0px;
+    width: 60%;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.proj_activ_block_item_first{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.proj_activ_block_item:hover .proj_activ_block_item_details_hover, .proj_activ_block_item:hover .proj_activ_block_item_download_hover{
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.proj_activ_block_item_details_hover{
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px;
+    min-width: 124px;
+    cursor: pointer;
+    opacity: 0;
+    white-space: nowrap;
+}
+
+.proj_activ_block_item_download_hover{
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    min-width: 28px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+.proj_activ_block_item_img{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.proj_activ_block_item_without_img{
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 13px;
+    color: #fff;
+    overflow: hidden;
+    background: #ffa239;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj_activ_block_item_details p:first-of-type{
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.proj_activ_block_item_details p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+
+.proj_activ_full_screen{
+    width: 100%;
+    /* height: calc(100vh - 43px); */
+    background: #ffffff;
+}
+.proj_activ_block_date{
+    font-size: 12px;
+   
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #b3b3b3;
+}
+
+.profilepic_activity{
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+}
+
+.proj_activ_block_item_details_hover p{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.proj_activ_opt_holder{
+    display: flex;
+    justify-content: center;
+}
+.proj_activ_opt_holder div:first-of-type{
+    margin-right: 20px;
+}
+
+.section-list{
+    flex: 1 1 auto;
+}
+.reports_item_container{
+    padding-top: 105px;
+    margin-left: 10.5%;
+}

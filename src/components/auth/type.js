@@ -1,0 +1,7 @@
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const SET_CURRENT_USER_TOKEN = 'SET_CURRENT_USER_TOKEN';
+
+export const SET_TOUR_INFO = 'SET_TOUR_INFO';
+export const UPDATE_TOUR_INFO = 'UPDATE_TOUR_INFO';
+export const GET_TOUR_INFO = 'GET_TOUR_INFO';
+export const SET_DRIFT_INIT = 'SET_DRIFT_INIT';

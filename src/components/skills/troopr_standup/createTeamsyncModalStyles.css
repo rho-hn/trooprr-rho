@@ -1,0 +1,63 @@
+.title {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.prenxt {
+  margin-bottom: 2px;
+  display: flex;
+  /* justify-content: end; */
+  margin-top: 24px;
+  margin-left: 320px;
+}
+
+.Select {
+  width: 100%;
+}
+
+.sch-type {
+  display: flex;
+}
+
+.sch-type-sel {
+  margin-left: 296px;
+  width: 50%;
+}
+
+.error-text {
+  color: red;
+}
+
+.question-text {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.optional-text {
+  font-weight: normal;
+}
+
+.answer-modal .ant-form-item {
+  margin-bottom: 0;
+}
+.empty-alert-text {
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .prenxt {
+    margin-bottom: 2px;
+    display: flex;
+    /* justify-content: end; */
+    margin-top: 24px;
+    margin-left: 160px;
+  }
+}
+@media screen and (max-width: 500px) and (max-width:300px) {
+  .prenxt {
+    margin-bottom: 2px;
+    display: flex;
+    /* justify-content: end; */
+    margin-top: 24px;
+    margin-left: 80px;
+  }
+}

@@ -1,0 +1,64 @@
+.checkin_code_block{
+    padding: 2px 3px 1px;
+    border: 1px solid #E9D5D4;
+    border-radius: 3px;
+  
+    color: #e01e5a;
+}
+.checkin_multi_code_block{
+    padding:8px;
+    border:1px solid black;
+    background:#EFEFEF;
+    border-radius: 3px;
+}
+.checkin_multi_code_block .checkin_code_block{
+
+color:#1d1c1d;
+border:none;
+border-radius: 0;
+padding:0;
+}
+
+
+
+.block_quote_tag{
+    position: relative;
+    padding-left: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.block_quote_tag:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 4px;
+    border-radius: 8px;
+    background:#DDDDDD;
+    content: "";
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+@media screen and (max-width: 500px) {
+    div.reportscroll {
+        margin-left: 8px;
+        width: 180%;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .ant-popover-inner{
+        width:40%;
+    }
+    .ant-popover-inner-content{
+        overflow: auto;
+        white-space: nowrap;
+    }
+  }

@@ -1,0 +1,283 @@
+.jira_select_domain_container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+.width_100 {
+  width: 100vw;
+}
+
+.height_100 {
+  height: 100%;
+}
+
+.jira_select_domain_box {
+  height: 40%;
+  width: 40%;
+}
+.jira_notification_main_box {
+  width: 100%;
+  overflow: auto;
+}
+.jira_notification_setup_conatiner {
+  background-color: #fafafa;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/*  
+.jira_notification_main_box{
+  
+
+} */
+.jira_notification_setup_conatiner .workspace-onboarding-header,
+.jira_select_domain_container .workspace-onboarding-header {
+  padding: 15px 32px;
+  width: 100%;
+}
+.jira_notification_left_box {
+  padding: 70px 17px 105px 24px;
+  width: 50%;
+}
+
+.jira_notification_right_box {
+  object-fit: contain;
+
+  width: 50%;
+  padding: 142px 34px;
+}
+
+.jira_notification_left_box .heading_box {
+  margin-bottom: 29px;
+}
+.jira_notification_left_box .heading_box .heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #262626;
+}
+
+.jira_notification_left_box .heading_box .sub_heading {
+  margin-top: 9px;
+  opacity: 0.67;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+
+  color: #262626;
+}
+.jira_notification_setup_conatiner .cancel_icon {
+  cursor: pointer;
+  font-size: 34px;
+}
+
+.jira_notification_setup_conatiner .cancel_icon:hover {
+  background: rgba(38,38,38,0.2);
+  color: #262626;
+  border-radius: 50%;
+}
+
+.jira_notification_left_box .steps_box {
+  padding: 16px 16px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.jira_notification_left_box .steps_box .step_heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3f4096;
+  margin-bottom: 16px;
+}
+.jira_notification_left_box .steps_box .step_text span,
+.issue_event_selection_box .event_for {
+  font-weight: bold;
+}
+
+ .step_text {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.65);
+  margin-top:14px;
+}
+
+.jira_notification_left_box .steps_box .copy_btn {
+  padding: 6px 48px;
+cursor:pointer !important;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3f4096;
+}
+
+.jira_notifcation_setup_input {
+  width: 70%;
+  
+  padding: 6px 16px;
+  opacity: 0.5;
+  border-radius: 4px;
+  border: solid 1px #c4c4c4;
+    margin-right: 16px;
+}
+
+.jira_notification_left_box .nxt_btn {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+
+  letter-spacing: normal;
+  text-align: center;
+  color: #3f4096;
+  padding: 8px 37px 8px 34px;
+  cursor: pointer;
+}
+
+.jira_notification_left_box .nxt_btn:hover {
+  opacity: 0.5;
+}
+
+.issue_event_selection_box {
+  width: 44%;
+}
+.issue_event_selection_box .event_for {
+  text-decoration: underline;
+}
+
+.issue_event_selection_box .event_type,
+.final_step_text {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262626;
+}
+.final_step_text {
+  margin: 24px 0px 18px;
+}
+
+.jira_notification_left_box .verify_btn {
+  padding: 8px 44px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.jira_steps_image_intial {
+  height: 34vh;
+  object-fit: contain;
+}
+
+.jira_steps_image_final {
+  margin-top:80px;
+  height: 28vh;
+  object-fit: contain;
+}
+
+.go_to_jira_link {
+  color: rgba(64, 46, 150, 0.65) !important;
+  text-decoration: underline !important;
+}
+
+.workspace-onboarding-troopr-logo{
+    width:42px;
+    height:42px;
+    object-fit: contain;
+}
+
+.workspace-onboarding-troopr-text{
+    color:#402e96;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+
+.main_box{
+  margin: 0 auto;
+  width: 702px;
+  text-align: center;
+}
+
+.main_heading{
+
+   
+    height: 22px;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #402e96;
+    margin-bottom: 12px;
+}
+
+.sub_heading{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.webSteps{
+  margin-top:50px;
+}
+
+.steps{
+  
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.tick{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.65);
+  margin-top:28px;
+}
+
+.settingsLink{
+  margin-top:15px;
+  cursor:pointer;
+}

@@ -1,0 +1,28 @@
+.reminder_modal_box{
+    padding:  8px  0px;
+    border-radius: 2px;
+    
+    width: 100%;
+  
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #262626;
+  }
+
+  .error_text{
+    color: red;
+    padding: 8px 12px;
+   }
+
+   .delete_reminder {
+    opacity: 0.6;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #d0021b;
+   }
+
+    .delete_reminder:hover {
+    opacity: 0.8;
+   }

@@ -1,0 +1,5 @@
+export const NEXT_STEP = "NEXT_STEP";
+export const PREVIOUS_STEP = "PREVIOUS_STEP";
+export const SET_DOMAIN_URL = "SET_DOMAIN_URL";
+export const ADD_KEYS_DATA = "ADD_KEYS_DATA"
+export const ADD_INSTANCE_INFO = "ADD_INSTANCE_INFO"

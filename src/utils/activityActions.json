@@ -1,0 +1,32 @@
+{
+    "task":{
+        "created":"CREATED",
+        "status_updated":"STATUS_UPDATED",
+        "task_section_moved":"TASK_SECTION_MOVED",
+        "due_date_updated":"DUE_DATE_UPDATED",
+        "assigned_to":"ASSIGNED_TO",
+        "name_updated":"NAME_UPDATED",
+        "description_updated":"DESCRIPTION_UPDATED",
+        "attachment_added":"ATTACHMENT_UPDATED",
+        "tagAssigned":"TAG_ASSIGNED",
+        "tagRemoved" : "TAG_REMOVED",
+        "assigne_removed":"ASSIGNE_REMOVED",
+        "due_date_removed":"DUE_DATE_REMOVED",
+        "add_follower":"ADD_FOLLOWER",
+        "start_date_updated": "START_DATE_UPDATED",
+        "start_date_removed": "START_DATE_REMOVED",
+        "remove_follower": "REMOVE_FOLLOWER"
+    },
+    "project":{
+        "member_added":"MEMBER_ADDED",
+        "member_left":"MEMBER_LEFT",
+        "member_removed": "MEMBER_REMOVED",
+        "created":"PROJECT_CREATED",
+        "name_updated":"PROJECT_NAME_CHANGED",
+        "status_updated":"PROJECT_STATUS_CHANGED",
+        "endDate_updated":"PROJECT_ENDDATE_CHANGED",
+        "startDate_updated":"PROJECT_STARTDATE_CHANGED",
+        "attachment_added":"PROJECT_ATTACHMENT_UPDATED",
+        "moved":"PROJECT_MOVED"
+    }
+}

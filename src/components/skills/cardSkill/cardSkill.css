@@ -1,0 +1,7 @@
+@media screen and (max-width: 500px) {
+    .reports_nudges {
+        width: 140%;
+        overflow: auto;
+        white-space: nowrap;
+    }
+  }

@@ -1,0 +1,10 @@
+.buttonStyles{
+text-align: center;
+/* padding: 4px; */
+cursor: pointer;
+font-size: 16px;
+}
+.buttonStyles:hover{
+
+   color: #211C38
+}

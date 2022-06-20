@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px) {
+    div.all_standup {
+        padding-left: 8px;
+        width: 190%;
+        overflow: auto;
+        white-space: nowrap;
+    }
+  }

@@ -1,0 +1,36 @@
+.input {
+  height: 34px;
+  width: fit-content;
+  padding: 0 12px;
+  font-size: 15px;
+  font-family: inherit;
+  background-color: black;
+  border: none;
+  color: #ddd;
+  /* background: ; */
+}
+
+.input:focus {
+  background-color: black;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.inputInvalid {
+  color: #e65757;
+}
+
+.link {
+  color:#00C0FF;
+  text-decoration: underline;
+}
+/* button{
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+} */

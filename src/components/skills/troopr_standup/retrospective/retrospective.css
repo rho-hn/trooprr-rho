@@ -1,0 +1,36 @@
+.retrospective-container{
+    display: flex;
+    overflow-x: auto;
+    height: calc(100vh - 89px);
+    /* height: calc(100vh - 136px); */
+}
+
+.retospective_list_header > .ant-list-header {
+    border-bottom : none !important
+}
+
+.retrosection {
+    flex: 0 0 25%;
+    /* text-align: center; */
+    padding-left: 24;
+    /* margin-right:0.2em; */
+}
+.question{
+    /* border-bottom: 1px solid black; */
+    padding-bottom: 1em;
+}
+/* .iconStyle{ */
+    /* margin-right: 8;
+    color: blue; */
+    /* word-wrap: break-word; */
+/* } */
+
+.votedicon{
+    /* background-color: blue; */
+    color: blue;
+}
+
+/* .ant-modal-body{
+    overflow: scroll !important;
+    height: 75vh !important;
+}  */
