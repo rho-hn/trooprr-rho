@@ -1587,7 +1587,7 @@ class JiraConfiguration extends Component {
                     </Col>
                     {this.props.match.params.sub_skill === "jira_software" && (
                       <Col span={col_span} style={{ display: "flex" }}>
-                        <Card
+                        {/* <Card
                           id="tpgp-cf"
                           title={
                             <div>
@@ -1643,7 +1643,7 @@ class JiraConfiguration extends Component {
                               </List.Item>
                             )}
                           />
-                        </Card>
+                        </Card> */}
                       </Col>
                     )}
                     {skillConnected && (
@@ -1724,7 +1724,6 @@ class JiraConfiguration extends Component {
                         <div style={{ height: "100vh" }}>
                           <Col span={col_span} style={{ display: "flex" }}>
                             <Card
-                              style={{ marginTop: 20, width: 100 }}
                               id="tpgp-cf"
                               title={
                                 <div>
@@ -1758,6 +1757,7 @@ class JiraConfiguration extends Component {
                                   Add
                                 </Button>
                               }
+                              style={{ width: "100%", marginTop: 20 }}
                               size="small"
                             >
                               <List
