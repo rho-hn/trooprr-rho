@@ -1488,7 +1488,6 @@ class JiraConfiguration extends Component {
                 maxWidth: 984,
                 marginLeft: 1000,
                 marginBottom: -140,
-                // paddingTop: 50,
                 position: "sticky",
                 top: 50,
                 alignSelf: "flex-end",
@@ -1725,10 +1724,83 @@ class JiraConfiguration extends Component {
                         <div style={{ height: "100vh" }}>
                           <Col span={col_span} style={{ display: "flex" }}>
                             <Card
+                              style={{ marginTop: 20, width: 100 }}
+                              id="tpgp-cf"
+                              title={
+                                <div>
+                                  <Text>
+                                    Common Filters ‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
+                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎
+                                  </Text>
+                                  <Paragraph ellipsis type="secondary">
+                                    Shared JQL filters that can be used by all
+                                    users (max:20)‏
+                                  </Paragraph>
+                                </div>
+                              }
+                              extra={
+                                <Button
+                                  type="primary"
+                                  disabled={!isAdmin}
+                                  onClick={() => this.openJqlFilterModal()}
+                                >
+                                  Add
+                                </Button>
+                              }
+                              size="small"
+                            >
+                              <List
+                                bordered
+                                size="small"
+                                pagination={{ pageSize: 4 }}
+                                dataSource={this.state.jqlFilter}
+                                renderItem={(item) => (
+                                  <List.Item>
+                                    <div
+                                      style={{
+                                        width: "100%",
+                                        display: "flex",
+                                        justifyContent: "space-between",
+                                        alignItems: "center",
+                                      }}
+                                    >
+                                      <div>
+                                        <Typography.Text>
+                                          {item.filterName}
+                                        </Typography.Text>{" "}
+                                      </div>
+                                      <div>
+                                        <Button
+                                          onClick={() =>
+                                            this.openJqlFilterModal(item)
+                                          }
+                                        >
+                                          Edit
+                                        </Button>
+                                      </div>
+                                    </div>
+                                  </List.Item>
+                                )}
+                              />
+                            </Card>
+                          </Col>
+                          <Col span={col_span} style={{ display: "flex" }}>
+                            <Card
                               title="Task It"
                               key="5"
                               id="tpgp-ice"
-                              style={{ width: "100%" }}
+                              style={{ width: "100%", marginTop: 20 }}
                             >
                               <div>
                                 <Text

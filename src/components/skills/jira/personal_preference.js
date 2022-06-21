@@ -906,29 +906,6 @@ class JiraPersonalPreference extends Component {
         </Card>
       ) : (
         <div>
-          <Affix offsetTop={0}>
-            <Anchor
-              style={{
-                backgroundColor: "white",
-                maxWidth: 984,
-                marginLeft: 900,
-                zIndex: 2,
-                marginBottom: -140,
-                // paddingTop: 50,
-                position: "sticky",
-                top: 50,
-              }}
-            >
-              <Link href="#tpgp-wja" title="Workspace Jira Account" />
-              {/* <Link href="#tpgp-um" title="User Mapping" /> */}
-              <Link href="#tpgp-cf" title="Common Filters" />
-              <Link href="#tpgp-ice" title="Task It" />
-              <Link href="#emoji" title="Emoji Creation" />
-              {/* <Link href="#tpgp-gtcd" title="Ticket Creation Defaults" /> */}
-              <Link href="#abl" title="Atlassian Billing Link" />
-            </Anchor>
-          </Affix>
-
           <Card
             size="small"
             title="My Account"
@@ -985,29 +962,6 @@ class JiraPersonalPreference extends Component {
       )
     ) : (
       <>
-        <Affix offsetTop={0}>
-          <Anchor
-            style={{
-              backgroundColor: "white",
-              maxWidth: 984,
-              marginLeft: 1000,
-              marginBottom: -140,
-              // paddingTop: 50,
-              position: "sticky",
-              top: 50,
-              alignSelf: "flex-end",
-            }}
-          >
-            <Link href="#tpgp-wja" title="Workspace Jira Account" />
-            {/* <Link href="#tpgp-um" title="User Mapping" /> */}
-            <Link href="#tpgp-cf" title="Common Filters" />
-            <Link href="#tpgp-ice" title="Task It" />
-            <Link href="#emoji" title="Emoji Creation" />
-            {/* <Link href="#tpgp-gtcd" title="Ticket Creation Defaults" /> */}
-            <Link href="#abl" title="Atlassian Billing Link" />
-          </Anchor>
-        </Affix>
-
         <Card
           size="small"
           title="My Account"
