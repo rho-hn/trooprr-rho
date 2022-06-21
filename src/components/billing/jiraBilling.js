@@ -168,7 +168,7 @@ class JiraBilling extends Component {
               id="abl"
               title="Link Atlassian Billing"
               key="1"
-              style={{ marginTop: 20 }}
+              style={{ marginTop: 20,marginLeft:10 }}
               extra={
                 <div
                   onClick={(e) => {

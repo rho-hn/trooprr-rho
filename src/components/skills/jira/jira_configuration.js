@@ -1481,28 +1481,25 @@ class JiraConfiguration extends Component {
     ) : (
       <Layout style={{ marginLeft: 0 }}>
         <Content style={{ padding: "16px 16px 32px 24px" }}>
-          <Affix offsetTop={0}>
-            <Anchor
-              style={{
-                backgroundColor: "white",
-                maxWidth: 984,
-                marginLeft: 1000,
-                marginBottom: -140,
-                position: "sticky",
-                top: 50,
-                alignSelf: "flex-end",
-              }}
-            >
-              <Link href="#tpgp-wja" title="Workspace Jira Account" />
-              {/* <Link href="#tpgp-um" title="User Mapping" /> */}
-              <Link href="#tpgp-cf" title="Common Filters" />
-              <Link href="#tpgp-ice" title="Task It" />
-              <Link href="#emoji" title="Emoji Creation" />
-              {/* <Link href="#tpgp-gtcd" title="Ticket Creation Defaults" /> */}
-              <Link href="#abl" title="Atlassian Billing Link" />
-            </Anchor>
-          </Affix>
+          <Anchor
+            style={{
+              maxWidth: 984,
+              marginLeft: 1000,
+              // position: "sticky",
+            }}
+            getContainer={() => document.getElementById("my-scroll-layout")}
+            // showInkInFixed={true}
 
+            // affix ={true}
+          >
+            <Link href="#tpgp-wja" title="Workspace Jira Account" />
+            {/* <Link href="#tpgp-um" title="User Mapping" /> */}
+            <Link href="#tpgp-cf" title="Common Filters" />
+            <Link href="#tpgp-ice" title="Task It" />
+            <Link href="#emoji" title="Emoji Creation" />
+            {/* <Link href="#tpgp-gtcd" title="Ticket Creation Defaults" /> */}
+            <Link href="#abl" title="Atlassian Billing Link" />
+          </Anchor>
           <Alert
             message="Configurations in this page apply to the entire workspace"
             type="warning"
@@ -1511,6 +1508,7 @@ class JiraConfiguration extends Component {
               width: "calc(100% - 16px)",
               maxWidth: 984,
               marginBottom: 16,
+              marginTop: -140
             }}
           />
           {/* <div> */}
@@ -1582,7 +1580,7 @@ class JiraConfiguration extends Component {
                 {/*------------------------------------------Jira Connected-------------------------------------*/}
                 <div id="my-scroll-layout">
                   <Row gutter={[8, 8]} style={{ marginBottom: 1024 }}>
-                    <Col span={col_span} style={{ display: "grid" }}>
+                    <Col span={col_span} style={{ display: "grid" ,marginLeft:8}}>
                       {this.content_Linked(data)}
                     </Col>
                     {this.props.match.params.sub_skill === "jira_software" && (
@@ -1722,7 +1720,7 @@ class JiraConfiguration extends Component {
                     <Col span={24}>
                       {sub_skill !== "jira_reports" && (
                         <div style={{ height: "100vh" }}>
-                          <Col span={col_span} style={{ display: "flex" }}>
+                          <Col span={col_span} style={{marginLeft:10, display: "flex" }}>
                             <Card
                               id="tpgp-cf"
                               title={
@@ -1800,7 +1798,7 @@ class JiraConfiguration extends Component {
                               title="Task It"
                               key="5"
                               id="tpgp-ice"
-                              style={{ width: "100%", marginTop: 20 }}
+                              style={{ width: "100%", marginTop: 20 ,marginLeft:10}}
                             >
                               <div>
                                 <Text

@@ -82,7 +82,7 @@ const CustomEmojisForIssueCreation = (props) => {
   }, []);
   return (
     // <Collapse style={{ borderTop: 'transparent',borderBottom:"transparent" }}>
-    <Card style={{ marginTop: 20 }} title="Emoji Creation" key="7" id="emoji">
+    <Card style={{ marginTop: 20 ,marginLeft:10}} title="Emoji Creation" key="7" id="emoji">
       {/* <div style={{ marginBottom: "1rem", textAlign: "center", fontSize: "1rem" }}>Selected Emoji :{emojis[customEmoji]}({customEmoji})</div>
                 <div style={{textAlign:"center"}}>
                 <Select style={{ width: "30%", textAlign: "center"}}  value={customEmoji} showSearch onChange={(value) => setCustomEmoji(value) }>
