@@ -1843,7 +1843,7 @@ class JiraConfiguration extends Component {
                               <Alert
                                 message="This configuration will be used in Projects and Helpdesk"
                                 type="warning"
-                                style={{ textAlign: "center" }}
+                                style={{ textAlign: "center" , marginRight:5 }}
                               />
                             </Card>
                           </Col>
