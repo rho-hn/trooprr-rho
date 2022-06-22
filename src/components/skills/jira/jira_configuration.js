@@ -1486,7 +1486,7 @@ class JiraConfiguration extends Component {
           <Anchor
             style={{
               maxWidth: 984,
-              marginLeft: 1000,
+              marginLeft: 1010,
               // position: "sticky",
             }}
             getContainer={() => document.getElementById("my-scroll-layout")}
@@ -1601,7 +1601,7 @@ class JiraConfiguration extends Component {
                   <Row gutter={[8, 8]} style={{ marginBottom: 1024 }}>
                   {sub_skill !== "jira_reports" && (
 
-                    <Col span={col_span} style={{ display: "grid" ,marginLeft:8}}>
+                    <Col span={col_span} style={{width:960, display: "grid" ,marginLeft:8}}>
                       {this.content_Linked(data)}
                     </Col>
                    
@@ -1750,25 +1750,13 @@ class JiraConfiguration extends Component {
                     <Col span={24}>
                       {sub_skill !== "jira_reports" && (
                         <div style={{ height: "100vh" }}>
-                          <Col span={col_span} style={{marginLeft:10, display: "flex" }}>
+                          <Col span={col_span} style={{marginLeft:10, width:990,marginTop:-16,display: "flex" }}>
                             <Card
                               id="tpgp-cf"
                               title={
                                 <div>
                                   <Text>
-                                    Common Filters ‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎
-                                    ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎‏‎ ‎
+                                    Common Filters 
                                   </Text>
                                   <Paragraph ellipsis type="secondary">
                                     Shared JQL filters that can be used by all
