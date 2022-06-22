@@ -1481,6 +1481,8 @@ class JiraConfiguration extends Component {
     ) : (
       <Layout style={{ marginLeft: 0 }}>
         <Content style={{ padding: "16px 16px 32px 24px" }}>
+        {sub_skill !== "jira_reports" && (
+    
           <Anchor
             style={{
               maxWidth: 984,
@@ -1500,6 +1502,9 @@ class JiraConfiguration extends Component {
             {/* <Link href="#tpgp-gtcd" title="Ticket Creation Defaults" /> */}
             <Link href="#abl" title="Atlassian Billing Link" />
           </Anchor>
+        
+        )}
+        {sub_skill !== "jira_reports" && (
           <Alert
             message="Configurations in this page apply to the entire workspace"
             type="warning"
@@ -1511,6 +1516,20 @@ class JiraConfiguration extends Component {
               marginTop: -140
             }}
           />
+        )}
+        {sub_skill === "jira_reports" && (
+          <Alert
+            message="Configurations in this page apply to the entire workspace"
+            type="warning"
+            showIcon
+            style={{
+              width: "calc(100% - 16px)",
+              maxWidth: 984,
+              marginBottom: 16,
+              // marginTop: -140
+            }}
+          />
+        )}
           {/* <div> */}
           <Row className={"content_row_jira"} gutter={[16, 16]}>
             {!isLinked ? (
@@ -1580,9 +1599,20 @@ class JiraConfiguration extends Component {
                 {/*------------------------------------------Jira Connected-------------------------------------*/}
                 <div id="my-scroll-layout">
                   <Row gutter={[8, 8]} style={{ marginBottom: 1024 }}>
+                  {sub_skill !== "jira_reports" && (
+
                     <Col span={col_span} style={{ display: "grid" ,marginLeft:8}}>
                       {this.content_Linked(data)}
                     </Col>
+                   
+                     )}
+                  {sub_skill === "jira_reports" && (
+
+                    <Col span={28} style={{width:990, marginLeft:8}}>
+                      {this.content_Linked(data)}
+                    </Col>
+                   
+                     )}
                     {this.props.match.params.sub_skill === "jira_software" && (
                       <Col span={col_span} style={{ display: "flex" }}>
                         {/* <Card
